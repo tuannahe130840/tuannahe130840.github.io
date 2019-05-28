@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+nav {
+    width: 100%;
+    background-color: #fff;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* xoa dau gach chan duoi chu */
+    color: #000;
+    padding: 31px;
+    display: inline-block;
+    /* chuyen thanh co khong gian */
+}
+
+nav ul li a:hover {
+    color: #1ABC9C;
+    cursor: pointer;
+    /*bien thanh hinh ngon tay */
+    background-color: #ccc;
+}
+
+#cover {
+    width: 100%;
+    padding: 80px 0 80px 0;
+    background-color: #1ABC9C;
+}
+
+#cover h2 {
+    color: #fff;
+}
+
+#cover img {
+    width: 350px;
+    border-radius: 50%;
+    margin: 50px 0 50px 0;
+}
+
+.container {
+    width: 960px;
+    /* 1024*768 */
+    height: auto;
+    margin: 0 auto;
+}
+
+#about {
+    padding: 80px 50px 80px 50px;
+    background-color: #474e5d;
+    color: #fff
+}
+
+#about p {
+    margin: 40px 0 20px 0;
+    line-height: 30px;
+    /* dan cach cac dong */
+}
+
+#about button {
+    padding: 10px 30px;
+    font-size: 16px;
+    /* kich thuoc text */
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    /* vo tron 4 canh nut search */
+    border: none;
+    /* bo bong search */
+}
+
+#gallery {
+    padding: 80px 50px;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+#gallery .card {
+    width: calc(33.33332% - 30px);
+    /* float xe dich 1 vung khong gian nao do */
+    float: left;
+    margin-top: 40px;
+    margin: 0 15px 0 15px;
+}
+
+#gallery .card p {
+    line-height: 25px;
+}
+
+#gallery .card img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#gallery .clear-fix {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer {
+    padding: 80px 50px;
+    background-color: #474e5d;
+    color: #fff;
+}
+
+
+/**/
+
+.text-center {
+    text-align: center;
+}
